@@ -42,7 +42,7 @@ This project doesn't need any dependency but it accesses the blob. Therefore, in
 
 ####  2. Download and installation
 
-DDownload the repository code with `git clone` or use download button.
+Download the repository code with `git clone` or use download button.
 
 We use [Visual Studio 2019](https://docs.microsoft.com/en-GB/visualstudio/ide/quickstart-aspnet-core?view=vs-2022) for working with this project.
 
@@ -58,10 +58,12 @@ The latest release of the project deployed in the [Dx29 application](https://dx2
 
 **CRUD Documents**
 >- Returns the latest(or optional version) or the specified version of the document requested in the choosen language.
->>- GET request: ``` api/v1/Documents/<document type>/<document name>/<lang>?version=<optional version> ```
+>>- GET request
+>>_ URL: ```http://localhost/api/v1/Documents/<document type>/<document name>/<lang>?version=<optional version> ```
 >>- Result: Stream of the document
 >- To get the list of all documents and its versions available.
->>- GET request: ``` api/v1/Documents/index```
+>>- GET request
+>>- URL: ```http://localhost/api/v1/Documents/index```
 >>- Result: Stream of the document with the versions.
 
 <p>&nbsp;</p>
