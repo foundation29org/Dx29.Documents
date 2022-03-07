@@ -6,6 +6,7 @@ Dx29 Documents
 ==============================================================================================================================================
 
 [![Build Status](https://f29.visualstudio.com/Dx29%20v2/_apis/build/status/DEV-MICROSERVICES/Dx29.Documents?branchName=develop)](https://f29.visualstudio.com/Dx29%20v2/_build/latest?definitionId=82&branchName=develop)
+[![MIT license](https://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)
 
 ### **Overview**
 
